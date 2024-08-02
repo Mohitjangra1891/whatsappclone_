@@ -81,7 +81,7 @@ class my_status_screen extends StatelessWidget {
                               backgroundColor: Color(status.texts.values.last),
                               child: FittedBox(
                                 fit: BoxFit.scaleDown,
-                                child: SizedBox(
+                                 child: SizedBox(
                                   width: 90,
                                   child: Text(
                                     status.texts.keys.last,
